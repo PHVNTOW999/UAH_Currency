@@ -15,11 +15,11 @@ function GET_CURR_API() {
                 '</div>' +
                 '<div class="currBlock__rate__nd">' +
                     '<p class="currBlock__rate__nd-baseCurr">Sale Rate(ND): ' + curr.saleRateNB + '</p>' +
-                    '<p class="currBlock__rate__nd-curr">Sale Rate(ND): ' + curr.purchaseRateNB + '</p>' +
+                    '<p class="currBlock__rate__nd-curr">Purchase Rate(ND): ' + curr.purchaseRateNB + '</p>' +
                 '</div>' +
                 '<div class="currBlock__rate">' +
                     '<p class="currBlock__rate-baseCurr">Sale Rate: ' + curr.saleRate + '</p>' +
-                    '<p class="currBlock__rate-curr">Sale Rate: ' + curr.purchaseRate + '</p>' +           
+                    '<p class="currBlock__rate-curr">Purchase Rate: ' + curr.purchaseRate + '</p>' +           
                 '</div>' +
             '</div>'
             })
